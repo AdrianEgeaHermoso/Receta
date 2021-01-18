@@ -1,0 +1,11 @@
+/********* estilos para receta de tortilla  de patatas****/
+
+body{background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;}
+
+#container{background-color:white;
+            width:80%;
+            margin: auto;
+            box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
+            padding:40px;
+            }
