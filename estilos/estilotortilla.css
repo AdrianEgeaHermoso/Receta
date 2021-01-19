@@ -1,4 +1,4 @@
-/********* estilos para receta de tortilla  de patatas****/
+/********* estilo para receta de tortilla  de patatas****/
 
 body{background-image: url(../imagenes/fondo.jpg);
     background-size: cover;}
@@ -8,6 +8,8 @@ body{background-image: url(../imagenes/fondo.jpg);
             margin: auto;
             box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
             padding:40px;
-            color:#FAD55A;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:#F8A95A;
+            border: 4px solid #F8A95A;
             }
+h1 {text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
