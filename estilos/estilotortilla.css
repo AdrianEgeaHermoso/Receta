@@ -9,4 +9,5 @@ body{background-image: url(../imagenes/fondo.jpg);
             box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
             padding:40px;
             color:#FAD55A;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             }
