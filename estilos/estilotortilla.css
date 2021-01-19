@@ -3,9 +3,10 @@
 body{background-image: url(../imagenes/fondo.jpg);
     background-size: cover;}
 
-#container{background-color:white;
+#container{background-color:#85cacad8;
             width:80%;
             margin: auto;
             box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
             padding:40px;
+            color:#FAD55A;
             }
