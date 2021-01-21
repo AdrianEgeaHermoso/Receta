@@ -10,7 +10,7 @@ body{background-image: url(../imagenes/fondo.jpg);
             padding:40px;
             color:#D3DA72;
             box-shadow: 20px 20px 10px#D3DA72;
-            }
+            overflow:auto;}
 h1 {text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
@@ -25,7 +25,8 @@ dt{text-transform: uppercase;
 #tortilla{width:40%;
             float: right;}
 
-/*******ESTILO TAbLA******/
+
+/*******ESTILO TABLA******/
 table{border:2px solid #D3DA72;
         border-collapse: collapse;}
 
@@ -35,6 +36,8 @@ td,th{border:2px solid #D3DA72;
     padding: 5px;}
 
 #recreo{letter-spacing: 40px;}
+
+
 /**********CAMBIOS DE TAMAÑO PANTALLA**********/
 
 @media only screen and (max-width:600px){#tortilla{width:100%}}
