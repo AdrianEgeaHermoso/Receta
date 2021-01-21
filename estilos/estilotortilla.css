@@ -25,6 +25,16 @@ dt{text-transform: uppercase;
 #tortilla{width:40%;
             float: right;}
 
+/*******ESTILO TAbLA******/
+table{border:2px solid #D3DA72;
+        border-collapse: collapse;}
+
+td,th{border:2px solid #D3DA72;
+    width:10vw;
+    text-align: center;
+    padding: 5px;}
+
+#recreo{letter-spacing: 40px;}
 /**********CAMBIOS DE TAMAÑO PANTALLA**********/
 
 @media only screen and (max-width:600px){#tortilla{width:100%}}
