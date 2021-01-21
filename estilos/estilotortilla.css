@@ -3,13 +3,13 @@
 body{background-image: url(../imagenes/fondo.jpg);
     background-size: cover;}
 
-#container{background-color:#9ad7d5e0;
+#container{background-color:#9e92b9f5;
             width:80%;
             margin: auto;
             box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
             padding:40px;
-            color:#F2619C;
-            box-shadow: 20px 20px 10px#F2619C;
+            color:#D3DA72;
+            box-shadow: 20px 20px 10px#D3DA72;
             }
 h1 {text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
