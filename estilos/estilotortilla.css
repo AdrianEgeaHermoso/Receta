@@ -3,13 +3,30 @@
 body{background-image: url(../imagenes/fondo.jpg);
     background-size: cover;}
 
-#container{background-color:#85cacad8;
+#container{background-color:#9ad7d5e0;
             width:80%;
             margin: auto;
             box-sizing: border-box;/*cualquier padding se toma dentro del tamaño especificado, no se amplia el ancho*/
             padding:40px;
-            color:#F8A95A;
-            border: 4px solid #F8A95A;
+            color:#F2619C;
+            box-shadow: 20px 20px 10px#F2619C;
             }
 h1 {text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+h1,h2,dt {text-decoration: underline;}
+
+ul,ol,dt,dd {font-weight: bold;}
+
+dt{text-transform: uppercase;
+    margin:10px;
+    }
+
+#tortilla{width:40%;
+            float: right;}
+
+/**********CAMBIOS DE TAMAÑO PANTALLA**********/
+
+@media only screen and (max-width:600px){#tortilla{width:100%}}
+
+/*@media only screen and(max-width:1000px){dt,dd{font-size: 1.5em;}}*/
